@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naveen Kumar - Senior Full Stack Developer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/dark-mode.css" id="dark-mode-style" disabled>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header Section -->
     <header>
         <div class="container">
             <div class="profile">
-                <img src="assets/images/profile.jpg" alt="Naveen Kumar" class="profile-photo">
+                <img src="profile.jpg" alt="Naveen Kumar" class="profile-photo">
                 <div>
                     <h1>Naveen Kumar</h1>
                     <p>Senior Full Stack Developer</p>
@@ -21,22 +20,123 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <button id="toggle-dark-mode">🌙 Dark Mode</button>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
+    <!-- About Section -->
+    <section id="about" class="section">
         <div class="container">
-            <h2>Building Scalable Web Applications</h2>
-            <p>Passionate about leveraging AI and machine learning to solve real-world problems.</p>
-            <a href="#about" class="btn">Learn More</a>
+            <h2>About Me</h2>
+            <p>I’m a Senior Full Stack Developer with over 5 years of experience in building scalable web applications and automating complex workflows. My expertise includes Python, JavaScript, Odoo, React.js, and modern backend frameworks like Flask and FastAPI. I’m passionate about leveraging AI and machine learning to solve real-world problems.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <i class="fas fa-code"></i>
+                    <h3>Languages</h3>
+                    <p>Python, JavaScript, SQL, HTML/CSS</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>Frameworks</h3>
+                    <p>Flask, FastAPI, React.js, Odoo</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i>
+                    <h3>Databases</h3>
+                    <p>PostgreSQL, MongoDB</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-tools"></i>
+                    <h3>Tools</h3>
+                    <p>Git, Docker, JIRA, REST APIs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Full Stack Developer</h3>
+                    <p><strong>Thapovan Info System</strong> | 05/2024 - Present</p>
+                    <ul>
+                        <li>Developed an Applicant Tracking System (ATS) in Odoo with OpenAI integration.</li>
+                        <li>Enhanced Odoo's LMS-FA module with automated bill scanning and AI-driven rules.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3>Backend Developer</h3>
+                    <p><strong>Autointelli</strong> | 11/2023 - 05/2024</p>
+                    <ul>
+                        <li>Built a Flask-based web app with PostgreSQL integration.</li>
+                        <li>Implemented secure authentication and RESTful APIs.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>Applicant Tracking System (ATS)</h3>
+                    <p>Developed an ATS in Odoo with OpenAI integration for resume analysis and candidate matching.</p>
+                    <p><strong>Tech Stack:</strong> Odoo, Python, OpenAI LLM, PostgreSQL</p>
+                </div>
+                <div class="project">
+                    <h3>HAPPi HRMS</h3>
+                    <p>Built a comprehensive HR management system on Odoo with payroll, attendance, and recruitment modules.</p>
+                    <p><strong>Tech Stack:</strong> Odoo, Python, React.js, PostgreSQL</p>
+                </div>
+                <div class="project">
+                    <h3>Ticketing System</h3>
+                    <p>Created a robust ticketing system in Odoo with an interactive dashboard for real-time tracking.</p>
+                    <p><strong>Tech Stack:</strong> Odoo, JavaScript, PostgreSQL</p>
+                </div>
+                <div class="project">
+                    <h3>LMS-FA Enhancements</h3>
+                    <p>Enhanced Odoo's FA module with bill scanning and AI-driven business rules.</p>
+                    <p><strong>Tech Stack:</strong> Odoo, Python, OpenAI LLM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Let’s connect and build something amazing together!</p>
+            <ul class="contact-info">
+                <li><i class="fas fa-envelope"></i> <a href="mailto:naveenkumardgl2000@gmail.com">naveenkumardgl2000@gmail.com</a></li>
+                <li><i class="fas fa-phone"></i> +9597672778</li>
+                <li><i class="fas fa-map-marker-alt"></i> Chennai, India</li>
+            </ul>
+            <ul class="social-links">
+                <li><a href="https://www.linkedin.com/in/naveen-kumar-7896ba228"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/Naveenkumar2527"><i class="fab fa-github"></i> GitHub</a></li>
+                <li><a href="https://portfolio-naveenkumar.netlify.app"><i class="fas fa-globe"></i> Portfolio</a></li>
+            </ul>
         </div>
     </section>
 
@@ -48,8 +148,6 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="scripts/main.js"></script>
-    <script src="scripts/dark-mode.js"></script>
-    <script src="scripts/smooth-scroll.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
