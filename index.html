@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naveen Kumar - Full Stack Developer</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Naveen Kumar</h1>
-            <p>Full Stack Developer</p>
+            <div class="profile">
+                <img src="profile.jpg" alt="Naveen Kumar" class="profile-photo">
+                <div>
+                    <h1>Naveen Kumar</h1>
+                    <p>Full Stack Developer</p>
+                </div>
+            </div>
             <button id="toggle-dark-mode">🌙 Dark Mode</button>
         </div>
     </header>
@@ -35,81 +41,106 @@
     <section id="skills" class="section">
         <div class="container">
             <h2>Skills</h2>
-            <h3>Languages:</h3>
-            <ul>
-                <li>Python, JavaScript, HTML, SQL</li>
-            </ul>
-            <h3>Backend Frameworks:</h3>
-            <ul>
-                <li>Flask, FastAPI</li>
-            </ul>
-            <h3>Frontend Frameworks:</h3>
-            <ul>
-                <li>React.js</li>
-            </ul>
-            <h3>Databases:</h3>
-            <ul>
-                <li>PostgreSQL, MongoDB</li>
-            </ul>
-            <h3>Technologies:</h3>
-            <ul>
-                <li>Odoo, XML, GitLab, JIRA</li>
-            </ul>
-            <h3>Version Control:</h3>
-            <ul>
-                <li>Git</li>
-            </ul>
+            <div class="skills-grid">
+                <div>
+                    <h3>Languages:</h3>
+                    <ul>
+                        <li>Python, JavaScript, HTML, SQL</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Backend Frameworks:</h3>
+                    <ul>
+                        <li>Flask, FastAPI</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Frontend Frameworks:</h3>
+                    <ul>
+                        <li>React.js</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Full Stack Frameworks:</h3>
+                    <ul>
+                        <li>Odoo</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Databases:</h3>
+                    <ul>
+                        <li>PostgreSQL, MongoDB</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Technologies:</h3>
+                    <ul>
+                        <li>XML, GitLab, JIRA</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Version Control:</h3>
+                    <ul>
+                        <li>Git</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="experience" class="section">
         <div class="container">
             <h2>Experience</h2>
-            <h3>Full Stack Developer</h3>
-            <p><strong>Thapovan Info System (05/2024 - Present)</strong></p>
-            <ul>
-                <li>Developed Applicant Tracking System (ATS) within the Odoo Requirements module to streamline job applications and candidate tracking.</li>
-                <li>Integrated OpenAI's LLM for resume analysis, automating the extraction of key information such as skills, experience, and education from resumes.</li>
-                <li>Built Resume Matching functionality using LLM, automating candidate-job fit recommendations based on job descriptions.</li>
-                <li>Enhanced the LMS-FA module in Odoo, adding features such as automated bill scanning and integrating LLM-driven business rules for optimized operations.</li>
-                <li>Developed HAPPi HRMS using Odoo, integrating Employee Management, Payroll, Attendance, and Recruitment, with custom modules like Work-from-Home and Expat Management.</li>
-            </ul>
+            <div class="experience-item">
+                <h3>Full Stack Developer</h3>
+                <p><strong>Thapovan Info System (05/2024 - Present)</strong></p>
+                <ul>
+                    <li>Developed Applicant Tracking System (ATS) within the Odoo Requirements module to streamline job applications and candidate tracking.</li>
+                    <li>Integrated OpenAI's LLM for resume analysis, automating the extraction of key information such as skills, experience, and education from resumes.</li>
+                    <li>Built Resume Matching functionality using LLM, automating candidate-job fit recommendations based on job descriptions.</li>
+                    <li>Enhanced the LMS-FA module in Odoo, adding features such as automated bill scanning and integrating LLM-driven business rules for optimized operations.</li>
+                    <li>Developed HAPPi HRMS using Odoo, integrating Employee Management, Payroll, Attendance, and Recruitment, with custom modules like Work-from-Home and Expat Management.</li>
+                </ul>
+            </div>
 
-            <h3>Backend Developer</h3>
-            <p><strong>Autointelli (11/2023 - 05/2024)</strong></p>
-            <ul>
-                <li>Designed and developed a Flask web application for data management, integrated with PostgreSQL.</li>
-                <li>Implemented secure authentication, RESTful APIs, and robust backend functionalities using Python.</li>
-            </ul>
+            <div class="experience-item">
+                <h3>Backend Developer</h3>
+                <p><strong>Autointelli (11/2023 - 05/2024)</strong></p>
+                <ul>
+                    <li>Designed and developed a Flask web application for data management, integrated with PostgreSQL.</li>
+                    <li>Implemented secure authentication, RESTful APIs, and robust backend functionalities using Python.</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <section id="projects" class="section">
         <div class="container">
             <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>Applicant Tracking System (ATS) in Odoo</h3>
+                    <p><strong>Description:</strong> Developed within the Odoo platform, the ATS efficiently manages job applications and candidate tracking, improving recruitment workflows.</p>
+                    <p><strong>Technologies Used:</strong> Odoo, Python, OpenAI LLM, XML, PostgreSQL</p>
+                </div>
 
-            <div class="project">
-                <h3>Applicant Tracking System (ATS) in Odoo</h3>
-                <p><strong>Description:</strong> Developed within the Odoo platform, the ATS efficiently manages job applications and candidate tracking, improving recruitment workflows.</p>
-                <p><strong>Technologies Used:</strong> Odoo, Python, OpenAI LLM, XML, PostgreSQL</p>
-            </div>
+                <div class="project">
+                    <h3>Resume Analysis Using OpenAI's LLM</h3>
+                    <p><strong>Description:</strong> Integrated OpenAI's LLM to analyze resumes, extracting key details like skills, experience, and qualifications.</p>
+                    <p><strong>Technologies Used:</strong> Python, OpenAI LLM, Machine Learning</p>
+                </div>
 
-            <div class="project">
-                <h3>Resume Analysis Using OpenAI's LLM</h3>
-                <p><strong>Description:</strong> Integrated OpenAI's LLM to analyze resumes, extracting key details like skills, experience, and qualifications.</p>
-                <p><strong>Technologies Used:</strong> Python, OpenAI LLM, Machine Learning</p>
-            </div>
+                <div class="project">
+                    <h3>HAPPi HRMS Product</h3>
+                    <p><strong>Description:</strong> Developed a comprehensive HRMS solution on Odoo, integrating various HR modules like Payroll, Attendance, and Recruitment, with custom modules for Work-from-Home and Expat Management.</p>
+                    <p><strong>Technologies Used:</strong> Odoo, Python, PostgreSQL, ReactJS</p>
+                </div>
 
-            <div class="project">
-                <h3>HAPPi HRMS Product</h3>
-                <p><strong>Description:</strong> Developed a comprehensive HRMS solution on Odoo, integrating various HR modules like Payroll, Attendance, and Recruitment, with custom modules for Work-from-Home and Expat Management.</p>
-                <p><strong>Technologies Used:</strong> Odoo, Python, PostgreSQL, ReactJS</p>
-            </div>
-
-            <div class="project">
-                <h3>Ticketing System Development</h3>
-                <p><strong>Description:</strong> Created an interactive ticketing system within Odoo for managing support tickets and inquiries. Developed a dashboard for real-time ticket tracking and performance metrics.</p>
-                <p><strong>Technologies Used:</strong> Odoo, JavaScript, PostgreSQL</p>
+                <div class="project">
+                    <h3>Ticketing System Development</h3>
+                    <p><strong>Description:</strong> Created an interactive ticketing system within Odoo for managing support tickets and inquiries. Developed a dashboard for real-time ticket tracking and performance metrics.</p>
+                    <p><strong>Technologies Used:</strong> Odoo, JavaScript, PostgreSQL</p>
+                </div>
             </div>
         </div>
     </section>
@@ -118,36 +149,38 @@
         <div class="container">
             <h2>Contact</h2>
             <p>If you'd like to get in touch, feel free to reach out via email or LinkedIn.</p>
-            <ul>
-                <li>Email: <a href="mailto:naveenkumardgl2000@gmail.com">naveenkumardgl2000@gmail.com</a></li>
-                <li>Phone: +9597672778</li>
-                <li>Location: Anand</li>
+            <ul class="contact-info">
+                <li><i class="fas fa-envelope"></i> <a href="mailto:naveenkumardgl2000@gmail.com">naveenkumardgl2000@gmail.com</a></li>
+                <li><i class="fas fa-phone"></i> +9597672778</li>
+                <li><i class="fas fa-map-marker-alt"></i> Anand</li>
             </ul>
 
             <h3>References</h3>
-            <p><strong>Mohamed Yahiya</strong></p>
-            <ul>
-                <li>Project Manager, Thapovan Info System</li>
-                <li>Phone: 8608412877</li>
-            </ul>
+            <div class="references">
+                <p><strong>Mohamed Yahiya</strong></p>
+                <ul>
+                    <li>Project Manager, Thapovan Info System</li>
+                    <li><i class="fas fa-phone"></i> 8608412877</li>
+                </ul>
 
-            <p><strong>Project Manager, Autointelli</strong></p>
-            <ul>
-                <li>Phone: +1-571-426-9715</li>
-            </ul>
+                <p><strong>Project Manager, Autointelli</strong></p>
+                <ul>
+                    <li><i class="fas fa-phone"></i> +1-571-426-9715</li>
+                </ul>
+            </div>
 
             <h3>Social Links</h3>
-            <ul>
-                <li>LinkedIn: <a href="#">Insert LinkedIn Profile URL</a></li>
-                <li>GitHub: <a href="#">Insert GitHub Profile URL</a></li>
-                <li>Portfolio: <a href="#">Insert Portfolio Website URL</a></li>
+            <ul class="social-links">
+                <li><a href="https://www.linkedin.com/in/naveen-kumar-7896ba228"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/Naveenkumar2527"><i class="fab fa-github"></i> GitHub</a></li>
+                <li><a href="https://portfolio-naveenkumar.netlify.app"><i class="fas fa-globe"></i> Portfolio</a></li>
             </ul>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Naveen Kumar. All rights reserved.</p>
+            <p>&copy; <span id="current-year"></span> Naveen Kumar. All rights reserved.</p>
         </div>
     </footer>
 
