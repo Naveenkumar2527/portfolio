@@ -3,173 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naveen Kumar - Full Stack Developer</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Naveen Kumar - Senior Full Stack Developer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
         <div class="container">
             <div class="profile">
                 <img src="profile.jpg" alt="Naveen Kumar" class="profile-photo">
                 <div>
                     <h1>Naveen Kumar</h1>
-                    <p>Full Stack Developer</p>
+                    <p>Senior Full Stack Developer</p>
                 </div>
             </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
             <button id="toggle-dark-mode">🌙 Dark Mode</button>
         </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
+    <!-- About Section -->
     <section id="about" class="section">
         <div class="container">
             <h2>About Me</h2>
-            <p>I’m passionate about coding and solving real-world problems through clean and efficient code. As a Full Stack Developer, I focus on building innovative solutions and constantly improving my skills. My expertise includes working with a variety of programming languages, frameworks, and databases, and I enjoy tackling challenges to streamline complex processes.</p>
+            <p>I’m a Senior Full Stack Developer with over 5 years of experience in building scalable web applications and automating complex workflows. My expertise includes Python, JavaScript, Odoo, React.js, and modern backend frameworks like Flask and FastAPI. I’m passionate about leveraging AI and machine learning to solve real-world problems.</p>
         </div>
     </section>
 
+    <!-- Skills Section -->
     <section id="skills" class="section">
         <div class="container">
             <h2>Skills</h2>
             <div class="skills-grid">
-                <div>
-                    <h3>Languages:</h3>
-                    <ul>
-                        <li>Python, JavaScript, HTML, SQL</li>
-                    </ul>
+                <div class="skill">
+                    <i class="fas fa-code"></i>
+                    <h3>Languages</h3>
+                    <p>Python, JavaScript, SQL, HTML/CSS</p>
                 </div>
-                <div>
-                    <h3>Backend Frameworks:</h3>
-                    <ul>
-                        <li>Flask, FastAPI</li>
-                    </ul>
+                <div class="skill">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>Frameworks</h3>
+                    <p>Flask, FastAPI, React.js, Odoo</p>
                 </div>
-                <div>
-                    <h3>Frontend Frameworks:</h3>
-                    <ul>
-                        <li>React.js</li>
-                    </ul>
+                <div class="skill">
+                    <i class="fas fa-database"></i>
+                    <h3>Databases</h3>
+                    <p>PostgreSQL, MongoDB</p>
                 </div>
-                <div>
-                    <h3>Full Stack Frameworks:</h3>
-                    <ul>
-                        <li>Odoo</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Databases:</h3>
-                    <ul>
-                        <li>PostgreSQL, MongoDB</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Technologies:</h3>
-                    <ul>
-                        <li>XML, GitLab, JIRA</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Version Control:</h3>
-                    <ul>
-                        <li>Git</li>
-                    </ul>
+                <div class="skill">
+                    <i class="fas fa-tools"></i>
+                    <h3>Tools</h3>
+                    <p>Git, Docker, JIRA, REST APIs</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Experience Section -->
     <section id="experience" class="section">
         <div class="container">
             <h2>Experience</h2>
-            <div class="experience-item">
-                <h3>Full Stack Developer</h3>
-                <p><strong>Thapovan Info System (05/2024 - Present)</strong></p>
-                <ul>
-                    <li>Developed Applicant Tracking System (ATS) within the Odoo Requirements module to streamline job applications and candidate tracking.</li>
-                    <li>Integrated OpenAI's LLM for resume analysis, automating the extraction of key information such as skills, experience, and education from resumes.</li>
-                    <li>Built Resume Matching functionality using LLM, automating candidate-job fit recommendations based on job descriptions.</li>
-                    <li>Enhanced the LMS-FA module in Odoo, adding features such as automated bill scanning and integrating LLM-driven business rules for optimized operations.</li>
-                    <li>Developed HAPPi HRMS using Odoo, integrating Employee Management, Payroll, Attendance, and Recruitment, with custom modules like Work-from-Home and Expat Management.</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <h3>Backend Developer</h3>
-                <p><strong>Autointelli (11/2023 - 05/2024)</strong></p>
-                <ul>
-                    <li>Designed and developed a Flask web application for data management, integrated with PostgreSQL.</li>
-                    <li>Implemented secure authentication, RESTful APIs, and robust backend functionalities using Python.</li>
-                </ul>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Full Stack Developer</h3>
+                    <p><strong>Thapovan Info System</strong> | 05/2024 - Present</p>
+                    <ul>
+                        <li>Developed an Applicant Tracking System (ATS) in Odoo with OpenAI integration.</li>
+                        <li>Enhanced Odoo's LMS-FA module with automated bill scanning and AI-driven rules.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3>Backend Developer</h3>
+                    <p><strong>Autointelli</strong> | 11/2023 - 05/2024</p>
+                    <ul>
+                        <li>Built a Flask-based web app with PostgreSQL integration.</li>
+                        <li>Implemented secure authentication and RESTful APIs.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects" class="section">
         <div class="container">
             <h2>Projects</h2>
             <div class="projects-grid">
                 <div class="project">
-                    <h3>Applicant Tracking System (ATS) in Odoo</h3>
-                    <p><strong>Description:</strong> Developed within the Odoo platform, the ATS efficiently manages job applications and candidate tracking, improving recruitment workflows.</p>
-                    <p><strong>Technologies Used:</strong> Odoo, Python, OpenAI LLM, XML, PostgreSQL</p>
+                    <h3>Applicant Tracking System (ATS)</h3>
+                    <p>Developed an ATS in Odoo with OpenAI integration for resume analysis and candidate matching.</p>
+                    <p><strong>Tech Stack:</strong> Odoo, Python, OpenAI LLM, PostgreSQL</p>
                 </div>
-
                 <div class="project">
-                    <h3>Resume Analysis Using OpenAI's LLM</h3>
-                    <p><strong>Description:</strong> Integrated OpenAI's LLM to analyze resumes, extracting key details like skills, experience, and qualifications.</p>
-                    <p><strong>Technologies Used:</strong> Python, OpenAI LLM, Machine Learning</p>
+                    <h3>HAPPi HRMS</h3>
+                    <p>Built a comprehensive HR management system on Odoo with payroll, attendance, and recruitment modules.</p>
+                    <p><strong>Tech Stack:</strong> Odoo, Python, React.js, PostgreSQL</p>
                 </div>
-
                 <div class="project">
-                    <h3>HAPPi HRMS Product</h3>
-                    <p><strong>Description:</strong> Developed a comprehensive HRMS solution on Odoo, integrating various HR modules like Payroll, Attendance, and Recruitment, with custom modules for Work-from-Home and Expat Management.</p>
-                    <p><strong>Technologies Used:</strong> Odoo, Python, PostgreSQL, ReactJS</p>
+                    <h3>Ticketing System</h3>
+                    <p>Created a robust ticketing system in Odoo with an interactive dashboard for real-time tracking.</p>
+                    <p><strong>Tech Stack:</strong> Odoo, JavaScript, PostgreSQL</p>
                 </div>
-
                 <div class="project">
-                    <h3>Ticketing System Development</h3>
-                    <p><strong>Description:</strong> Created an interactive ticketing system within Odoo for managing support tickets and inquiries. Developed a dashboard for real-time ticket tracking and performance metrics.</p>
-                    <p><strong>Technologies Used:</strong> Odoo, JavaScript, PostgreSQL</p>
+                    <h3>LMS-FA Enhancements</h3>
+                    <p>Enhanced Odoo's FA module with bill scanning and AI-driven business rules.</p>
+                    <p><strong>Tech Stack:</strong> Odoo, Python, OpenAI LLM</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="section">
         <div class="container">
             <h2>Contact</h2>
-            <p>If you'd like to get in touch, feel free to reach out via email or LinkedIn.</p>
+            <p>Let’s connect and build something amazing together!</p>
             <ul class="contact-info">
                 <li><i class="fas fa-envelope"></i> <a href="mailto:naveenkumardgl2000@gmail.com">naveenkumardgl2000@gmail.com</a></li>
                 <li><i class="fas fa-phone"></i> +9597672778</li>
-                <li><i class="fas fa-map-marker-alt"></i> Anand</li>
+                <li><i class="fas fa-map-marker-alt"></i> Chennai, India</li>
             </ul>
-
-            <h3>References</h3>
-            <div class="references">
-                <p><strong>Mohamed Yahiya</strong></p>
-                <ul>
-                    <li>Project Manager, Thapovan Info System</li>
-                    <li><i class="fas fa-phone"></i> 8608412877</li>
-                </ul>
-
-                <p><strong>Project Manager, Autointelli</strong></p>
-                <ul>
-                    <li><i class="fas fa-phone"></i> +1-571-426-9715</li>
-                </ul>
-            </div>
-
-            <h3>Social Links</h3>
             <ul class="social-links">
                 <li><a href="https://www.linkedin.com/in/naveen-kumar-7896ba228"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
                 <li><a href="https://github.com/Naveenkumar2527"><i class="fab fa-github"></i> GitHub</a></li>
@@ -178,12 +140,14 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
             <p>&copy; <span id="current-year"></span> Naveen Kumar. All rights reserved.</p>
         </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="script.js"></script>
 </body>
 </html>
