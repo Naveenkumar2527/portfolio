@@ -1,3 +1,2 @@
-# HI,
-# READ
+# HI
 # BYE
